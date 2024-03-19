@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <h1 class="gamename">Guess a number</h1>
+    <!-- <h3>enter number between 0 to 100</h3> -->
+    <p>System Number: <span id="systemNumber"></span></p>
+    <label for="userInput">Enter a number between 0 and 100:</label><br><br/>
+    <input type="number" class="input" id="userInput"  min="0" max="100"> 
+
+    <br><br/>
+    <!-- <p id="firstparagraph">enter number between 0 to 100</p> -->
+    <button id="firstbutton" class="checkbutton" onclick="checkGuess()" >checkGuess</button>
+    <!-- <p id="myrandom" >random number</p> -->
+    <p>Chances left: <span id="chancesLeft">10</span></p>
+
+    <p id="result"></p>
+    <button id="playAgain" class="replay" onclick="resetGame()">Play Again</button>
+    <script src="main.js"></script>
+    
+</body>
+</html>

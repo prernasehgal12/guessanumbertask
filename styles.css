@@ -1,0 +1,23 @@
+*{
+    text-align: center;
+    background-color: plum;
+}
+
+.gamename{
+    color: red;
+    font-family: cursive;
+    
+}
+.checkbutton{
+    
+    background-color: rgb(32, 122, 239);
+}
+
+.input{
+    background-color: rgb(87, 223, 227);
+}
+
+.replay{
+    background-color: black;
+    color: aliceblue;
+}
