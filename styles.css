@@ -20,4 +20,7 @@
 .replay{
     background-color: black;
     color: aliceblue;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
